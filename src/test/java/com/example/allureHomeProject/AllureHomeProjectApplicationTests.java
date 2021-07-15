@@ -4,13 +4,12 @@ import io.qameta.allure.*;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.junit.jupiter.api.Test;
+import org.openqa.selenium.*;
 import org.springframework.boot.test.context.SpringBootTest;
 
+import java.io.ByteArrayInputStream;
 import java.util.concurrent.TimeUnit;
 import io.github.bonigarcia.wdm.WebDriverManager;
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
@@ -28,6 +27,7 @@ class AllureHomeProjectApplicationTests {
 
 	private Logger logger = LogManager.getLogger(AllureHomeProjectApplicationTests.class);
 	protected WebDriver driver;
+
 
 	@Test
 	@Step("Check Title")
@@ -93,6 +93,7 @@ class AllureHomeProjectApplicationTests {
 
 		driver.get("https://otus.ru/contacts");
 		logger.info("Открыта страница Контакты");
+		Allure.addAttachment("Cтраница Контакты", new ByteArrayInputStream(((TakesScreenshot) driver).getScreenshotAs(OutputType.BYTES)));
 		assertEquals( "Адрес не соответствует ожидаемому",EXPECTED_OTUS_CONTACTS_TEXT, driver.findElement(By.xpath("//div[text()='Адрес']/../div[2]")).getText());
 
 		if (driver!=null)
@@ -138,6 +139,7 @@ class AllureHomeProjectApplicationTests {
 		logger.info("Открыта страница FAQ");
 		driver.findElement(By.cssSelector("body > div.body-wrapper > div > div.container.container-padding-bottom.js-faq > div.container__row.js-tabs > div:nth-child(2) > div:nth-child(4) > div.faq-question__question.js-faq-question-question")).click();
 		String expectedProgram = "Программу курса в сжатом виде можно увидеть на странице курса после блока с преподавателями. Подробную программу курса можно скачать кликнув на “Скачать подробную программу курса”";
+		Allure.addAttachment("Cтраница FAQ", new ByteArrayInputStream(((TakesScreenshot) driver).getScreenshotAs(OutputType.BYTES)));
 		assertEquals("Текст не соответствует ожидаемому", expectedProgram, driver.findElement(By.cssSelector("body > div.body-wrapper > div > div.container.container-padding-bottom.js-faq > div.container__row.js-tabs > div:nth-child(2) > div:nth-child(4) > div.faq-question__answer.js-faq-answer")).getText());
 		logger.info("Текст соответствует ожидаемому");
 
@@ -164,6 +166,7 @@ class AllureHomeProjectApplicationTests {
 		driver.findElement(By.cssSelector(".input.footer2__subscribe-input")).sendKeys("test@test.com");
 		driver.findElement(By.cssSelector(".footer2__subscribe-button.button.button_blue.button_as-input")).click();
 		logger.info("Нажата кнопка Подписаться");
+		Allure.addAttachment("Нажата кнопка Подписаться", new ByteArrayInputStream(((TakesScreenshot) driver).getScreenshotAs(OutputType.BYTES)));
 		assertEquals( "Вы успешно подписались", driver.findElement(By.cssSelector("body > div.body-wrapper > div > footer > div > div > div.footer2__content > div > div:nth-child(3) > p.subscribe-modal__success")).getText());
 		logger.info("Текст Вы успешно подписались");
 

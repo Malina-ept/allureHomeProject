@@ -53,3 +53,69 @@
 2021-07-16 00:05:47,743 INFO c.e.a.AllureHomeProjectApplicationTests [main] Текст Вы успешно подписались
 2021-07-16 00:05:50,694 INFO c.e.a.AllureHomeProjectApplicationTests [main] Драйвер поднят
 2021-07-16 00:05:55,289 INFO c.e.a.AllureHomeProjectApplicationTests [main] Открыта страница Контакты
+2021-07-16 00:15:42,523 INFO c.e.a.AllureHomeProjectApplicationTests [main] Драйвер поднят
+2021-07-16 00:15:45,706 INFO c.e.a.AllureHomeProjectApplicationTests [main] Сайт открыт
+2021-07-16 00:15:45,706 INFO c.e.a.AllureHomeProjectApplicationTests [main] Проверяем title страницы
+2021-07-16 00:15:48,752 INFO c.e.a.AllureHomeProjectApplicationTests [main] Драйвер поднят
+2021-07-16 00:15:51,679 INFO c.e.a.AllureHomeProjectApplicationTests [main] Открыто окно браузера на полный экран
+2021-07-16 00:15:51,751 INFO c.e.a.AllureHomeProjectApplicationTests [main] (1552, 840)
+2021-07-16 00:15:54,804 INFO c.e.a.AllureHomeProjectApplicationTests [main] Драйвер поднят
+2021-07-16 00:15:57,848 INFO c.e.a.AllureHomeProjectApplicationTests [main] Сайт открыт
+2021-07-16 00:16:01,779 INFO c.e.a.AllureHomeProjectApplicationTests [main] Открыта страница Контакты
+2021-07-16 00:16:01,779 INFO c.e.a.AllureHomeProjectApplicationTests [main] Проверяем title страницы Контакты
+2021-07-16 00:16:04,508 INFO c.e.a.AllureHomeProjectApplicationTests [main] Драйвер поднят
+2021-07-16 00:16:07,345 INFO c.e.a.AllureHomeProjectApplicationTests [main] Сайт открыт
+2021-07-16 00:16:08,880 INFO c.e.a.AllureHomeProjectApplicationTests [main] Открыта страница FAQ
+2021-07-16 00:16:09,509 INFO c.e.a.AllureHomeProjectApplicationTests [main] Текст соответствует ожидаемому
+2021-07-16 00:16:12,179 INFO c.e.a.AllureHomeProjectApplicationTests [main] Драйвер поднят
+2021-07-16 00:16:15,297 INFO c.e.a.AllureHomeProjectApplicationTests [main] Сайт открыт
+2021-07-16 00:16:15,401 INFO c.e.a.AllureHomeProjectApplicationTests [main] Поле email очищено
+2021-07-16 00:16:16,726 INFO c.e.a.AllureHomeProjectApplicationTests [main] Нажата кнопка Подписаться
+2021-07-16 00:16:17,058 INFO c.e.a.AllureHomeProjectApplicationTests [main] Текст Вы успешно подписались
+2021-07-16 00:16:19,648 INFO c.e.a.AllureHomeProjectApplicationTests [main] Драйвер поднят
+2021-07-16 00:16:23,896 INFO c.e.a.AllureHomeProjectApplicationTests [main] Открыта страница Контакты
+2021-07-16 00:20:05,666 INFO c.e.a.AllureHomeProjectApplicationTests [main] Драйвер поднят
+2021-07-16 00:20:08,538 INFO c.e.a.AllureHomeProjectApplicationTests [main] Сайт открыт
+2021-07-16 00:20:08,538 INFO c.e.a.AllureHomeProjectApplicationTests [main] Проверяем title страницы
+2021-07-16 00:20:10,256 INFO c.e.a.AllureHomeProjectApplicationTests [main] Драйвер поднят
+2021-07-16 00:20:13,620 INFO c.e.a.AllureHomeProjectApplicationTests [main] Открыто окно браузера на полный экран
+2021-07-16 00:20:13,852 INFO c.e.a.AllureHomeProjectApplicationTests [main] (1552, 840)
+2021-07-16 00:20:16,550 INFO c.e.a.AllureHomeProjectApplicationTests [main] Драйвер поднят
+2021-07-16 00:20:19,296 INFO c.e.a.AllureHomeProjectApplicationTests [main] Сайт открыт
+2021-07-16 00:20:22,977 INFO c.e.a.AllureHomeProjectApplicationTests [main] Открыта страница Контакты
+2021-07-16 00:20:22,977 INFO c.e.a.AllureHomeProjectApplicationTests [main] Проверяем title страницы Контакты
+2021-07-16 00:20:25,214 INFO c.e.a.AllureHomeProjectApplicationTests [main] Драйвер поднят
+2021-07-16 00:20:28,217 INFO c.e.a.AllureHomeProjectApplicationTests [main] Сайт открыт
+2021-07-16 00:20:29,876 INFO c.e.a.AllureHomeProjectApplicationTests [main] Открыта страница FAQ
+2021-07-16 00:20:30,927 INFO c.e.a.AllureHomeProjectApplicationTests [main] Текст соответствует ожидаемому
+2021-07-16 00:20:33,145 INFO c.e.a.AllureHomeProjectApplicationTests [main] Драйвер поднят
+2021-07-16 00:20:35,972 INFO c.e.a.AllureHomeProjectApplicationTests [main] Сайт открыт
+2021-07-16 00:20:36,044 INFO c.e.a.AllureHomeProjectApplicationTests [main] Поле email очищено
+2021-07-16 00:20:37,177 INFO c.e.a.AllureHomeProjectApplicationTests [main] Нажата кнопка Подписаться
+2021-07-16 00:20:37,481 INFO c.e.a.AllureHomeProjectApplicationTests [main] Текст Вы успешно подписались
+2021-07-16 00:20:39,714 INFO c.e.a.AllureHomeProjectApplicationTests [main] Драйвер поднят
+2021-07-16 00:20:44,144 INFO c.e.a.AllureHomeProjectApplicationTests [main] Открыта страница Контакты
+2021-07-16 00:21:12,316 INFO c.e.a.AllureHomeProjectApplicationTests [main] Драйвер поднят
+2021-07-16 00:21:15,399 INFO c.e.a.AllureHomeProjectApplicationTests [main] Сайт открыт
+2021-07-16 00:21:15,399 INFO c.e.a.AllureHomeProjectApplicationTests [main] Проверяем title страницы
+2021-07-16 00:21:44,615 INFO c.e.a.AllureHomeProjectApplicationTests [main] Драйвер поднят
+2021-07-16 00:21:47,611 INFO c.e.a.AllureHomeProjectApplicationTests [main] Сайт открыт
+2021-07-16 00:21:47,611 INFO c.e.a.AllureHomeProjectApplicationTests [main] Проверяем title страницы
+2021-07-16 00:21:49,397 INFO c.e.a.AllureHomeProjectApplicationTests [main] Драйвер поднят
+2021-07-16 00:21:53,184 INFO c.e.a.AllureHomeProjectApplicationTests [main] Открыто окно браузера на полный экран
+2021-07-16 00:21:53,288 INFO c.e.a.AllureHomeProjectApplicationTests [main] (1552, 840)
+2021-07-16 00:21:55,903 INFO c.e.a.AllureHomeProjectApplicationTests [main] Драйвер поднят
+2021-07-16 00:21:58,590 INFO c.e.a.AllureHomeProjectApplicationTests [main] Сайт открыт
+2021-07-16 00:22:02,369 INFO c.e.a.AllureHomeProjectApplicationTests [main] Открыта страница Контакты
+2021-07-16 00:22:02,369 INFO c.e.a.AllureHomeProjectApplicationTests [main] Проверяем title страницы Контакты
+2021-07-16 00:22:04,604 INFO c.e.a.AllureHomeProjectApplicationTests [main] Драйвер поднят
+2021-07-16 00:22:08,118 INFO c.e.a.AllureHomeProjectApplicationTests [main] Сайт открыт
+2021-07-16 00:22:09,784 INFO c.e.a.AllureHomeProjectApplicationTests [main] Открыта страница FAQ
+2021-07-16 00:22:10,739 INFO c.e.a.AllureHomeProjectApplicationTests [main] Текст соответствует ожидаемому
+2021-07-16 00:22:12,985 INFO c.e.a.AllureHomeProjectApplicationTests [main] Драйвер поднят
+2021-07-16 00:22:15,970 INFO c.e.a.AllureHomeProjectApplicationTests [main] Сайт открыт
+2021-07-16 00:22:16,114 INFO c.e.a.AllureHomeProjectApplicationTests [main] Поле email очищено
+2021-07-16 00:22:17,316 INFO c.e.a.AllureHomeProjectApplicationTests [main] Нажата кнопка Подписаться
+2021-07-16 00:22:17,645 INFO c.e.a.AllureHomeProjectApplicationTests [main] Текст Вы успешно подписались
+2021-07-16 00:22:19,890 INFO c.e.a.AllureHomeProjectApplicationTests [main] Драйвер поднят
+2021-07-16 00:22:24,087 INFO c.e.a.AllureHomeProjectApplicationTests [main] Открыта страница Контакты
